@@ -1,11 +1,9 @@
 *{
     font-family:sans-serif;
 }
-
 body{
-    background: f1fbff;
+    background: #f1fbff;
 }
-
 .section-padding{
     padding: 100px 0;
 }
@@ -112,8 +110,11 @@ body{
     text-align: center;
     justify-content: center;
 }
-
-
+.img-area img {
+     width: 300px;
+     height: 200px;
+     object-fit: cover;
+}
 
 @media only screen and (min-width:768px) and (max-width:991px){
     .carousel-caption{
@@ -129,7 +130,6 @@ body{
         width: 100%;
     }
 }
-    
 
 @media only screen and (max-width:767px){
     .navbar-nav{
